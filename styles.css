@@ -1,0 +1,468 @@
+html, body {
+    overflow-x: hidden;
+}
+
+.body{
+    background-color: black;
+    height: 7900px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+    
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: black;
+    border-bottom: 0.1px solid white;
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+header ul{
+    list-style: none;
+    width: 80%;
+    text-align: right;
+    padding-right: 60px;
+    font-size: larger;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    
+}
+
+header ul li a{
+    color:lightgray;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    justify-content: center; /* Horizontally center the container */
+    height: 100vh; /* Full viewport height */
+    padding: 2px;
+    background-color: black;
+}
+
+.heading1 {
+    font-size: 80px;
+    padding-left: 44px;
+    padding-top: 0px;
+    background-image: linear-gradient(to right , #b96ed2, #c10040 ); /* Define your gradient here */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.heading2 {
+    font-size: 45px;
+    padding-left: 82px;
+    color: white;
+}
+
+.heading3 {
+    font-size: 45px;
+    padding-left: 380px;
+    color: white;
+}
+
+.heading4 {
+    font-size: 45px;
+    padding-left: 245px;
+    color: white;
+}
+
+.image {
+    margin: 50px;
+    float: right;
+    width: 420px;
+    padding-top: 30px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+    
+}
+
+.button1 {
+    background-image: linear-gradient(45deg, #b56ed2, #ba00c1); /* Gradient from yellow to red */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 25px; /* Text size */
+    font-weight: bold; /* Make the text bold */
+    border-radius: 22px; /* Rounded corners */
+    cursor: pointer; /* Show pointer on hover */
+    transition: all 0.3s ease; /* Smooth hover transition */
+    margin-left: 225px;
+}
+
+.button1:hover {
+    background-image: linear-gradient(45deg, #ba00c1, #b56ed2); /* Reverse the gradient on hover */
+    color: white; /* Keep text color white */
+}
+
+.button2 {
+    background-color: transparent; /* No background color */
+    color: #b56ed2; /* Text color */
+    border: 2px solid #b56ed2; /* Border color matches text color */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 22px; /* Text size */
+    font-weight: bold; /* Make the text bold */
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer; /* Show pointer on hover */
+    transition: all 0.3s ease; /* Smooth hover transition */
+    margin-left: 20px;
+}
+
+.button2:hover {
+    background-color: #b56ed2; /* Background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+
+
+
+.About {
+    color: white;
+    font-size: 30px;
+}
+
+.habout {
+    color: #866ed2;
+}
+
+.skills {
+    color: white;
+}
+
+
+.h1skills {
+    padding-left: 10px;
+    font-size: 65px;
+    color: #866ed2;
+    
+}
+
+
+.ul{
+    font-size: 30px;
+    color: white;
+}
+
+.container2 {
+    
+    display: inline-block; /* Ensures the container wraps the image */
+    text-align: center; /* Centers the text */
+
+}
+
+
+.imglinux {
+    padding-left: 10px ;
+    margin: 5px;
+    float: left;
+    width: 130px;
+}
+
+.imgtext {
+    color: white;
+    font-size: 50px;   
+    padding-left: 10px; 
+
+}
+
+.plinux {
+    color: white;
+    padding-top: 0px ;
+    font-size: 30px;
+}
+
+.container3 {
+    
+    display: inline-block; /* Ensures the container wraps the image */
+    text-align: center; /* Centers the text */
+}
+
+
+.imgAWS {
+    padding-left: 5px ;
+    margin: 5px;
+    float: left;
+    width: 150px;
+}
+
+.hAWS {
+    color: white;
+    font-size: 50px;   
+    padding-left: 5px; 
+
+}
+
+.AWS {
+    color: white;
+    padding-top: 0px ;
+    font-size: 30px;
+}
+
+.container4 {
+    
+    display: inline-block; /* Ensures the container wraps the image */
+    text-align: center; /* Centers the text */
+}
+
+
+.imgHTML {
+    padding-left: 5px ;
+    margin: 5px;
+    float: left;
+    width: 130px;
+}
+
+.hHTML {
+    color: white;
+    font-size: 50px;   
+    padding-left: 5px; 
+
+}
+
+.HTML {
+    color: white;
+    padding-top: 0px ;
+    font-size: 30px;
+}
+
+
+.container5 {
+    
+    display: inline-block; /* Ensures the container wraps the image */
+    text-align: center; /* Centers the text */
+}
+
+
+.imgCSS {
+    padding-left: 5px ;
+    margin: 5px;
+    float: left;
+    width: 120px;
+}
+
+.hCSS {
+    color: white;
+    font-size: 50px;   
+    padding-left: 5px; 
+
+}
+
+.CSS {
+    color: white;
+    padding-top: 0px ;
+    font-size: 30px;
+}
+
+.container6 {
+    
+    display: inline-block; /* Ensures the container wraps the image */
+    text-align: center; /* Centers the text */
+}
+
+
+.imgTS {
+    padding-left: 5px ;
+    margin: 5px;
+    float: left;
+    width: 130px;
+}
+
+.hTS {
+    color: white;
+    font-size: 50px;   
+    padding-left: 5px; 
+
+}
+
+.TS {
+    color: white;
+    padding-top: 0px ;
+    font-size: 30px;
+}
+
+
+.Education {
+    color: white;
+    font-size: 30px;
+}
+
+.heducation {
+    color: #866ed2;
+}
+
+.Certifications {
+    color: white;
+    font-size: 30px;
+}
+
+.hcertification {
+    color: #866ed2;
+}
+
+.projects {
+    color: white;
+    font-size: 65px;
+}
+
+/* Container styling */
+.projects {
+    padding: 50px;
+    background-color: black;
+    text-align: center;
+}
+
+.hproject {
+    color: #866ed2;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+/* Project card styling */
+.project {
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.project h3 {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.view-project {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+
+@media (max-width: 768px) {
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.contact {
+    color: white;
+    align-items: center;
+    font-size: 40px;
+}
+
+#hcontact {
+    color: #866ed2;
+    font-size: 60px;
+       
+}
+
+
+.linkdin {
+    width: 10px;
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    margin-top: auto;
+    border-top: 0.1px solid white;
+    
+}
+
+
+.logo2 {
+    width: 180px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 1px;
+}
+
+footer p {
+    list-style: none;
+    width: 90%;
+    text-align: right;
+    padding-right: 200px;
+    color: white;
+    padding-top: 1px;
+    vertical-align: bottom;
+}
+
+.contacts {
+    width: 50%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 20px;
+
+    
+}
+.email {
+    font-size: 25px;
+    color: white;
+}
+
+.linkdin {
+    width: 150px;
+}
+
+.github {
+    width: 100px;
+}
+
+

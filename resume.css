@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    height: 100px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: black;
+    border-bottom: 0.1px solid white;
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+.download-btn {
+    margin-top: 20px;
+}
+.download-btn a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.download-btn a:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    margin-top: auto;
+    border-top: 0.1px solid white;
+    
+}
+
+
+.logo2 {
+    width: 180px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 1px;
+}
+
+footer p {
+    list-style: none;
+    width: 90%;
+    text-align: right;
+    padding-right: 200px;
+    color: white;
+    padding-top: 1px;
+    vertical-align: bottom;
+}
